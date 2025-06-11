@@ -137,7 +137,7 @@ descripcion = tk.Label(
 )
 descripcion.pack(pady=(10, 5))
 
-boton_seleccionar = ttk.Button(ventana, text="Seleccionar archivos", command=procesar_archivos_async)
+boton_seleccionar = ttk.Button(ventana, text="Seleccionar archivos", command=procesar_archivos_async, padding=7)
 boton_seleccionar.pack(pady=20)
 
 barra = ttk.Progressbar(ventana, mode="indeterminate")
