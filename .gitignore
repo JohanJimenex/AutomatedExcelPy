@@ -1,1 +1,4 @@
 /Datos de prueba
+build
+dist
+*.spec
