@@ -4,12 +4,11 @@
 import tkinter as tk  # Librería estándar para crear interfaces gráficas (GUI)
 from tkinter import filedialog, ttk, messagebox  # Submódulos para selección de archivos, widgets avanzados y mensajes
 import pandas as pd  # Manejo de datos tabulares, similar a DataTable o arrays de objetos
-import sys
-import os
+import sys # Acceso a parámetros y funciones del intérprete de Python
+import os # Manejo de rutas y archivos del sistema operativo
 import threading  # Permite ejecutar tareas en segundo plano (evita que la GUI se congele)
 from openpyxl import load_workbook  # Manejo de archivos Excel
 from openpyxl.worksheet.table import Table, TableStyleInfo  # Estilo y formato para tablas en Excel
-from openpyxl.styles import numbers  # Formato de celdas (números, fechas, etc.)
 
 cancelado = False  # Flag global para detener el procesamiento si el usuario lo desea
 
